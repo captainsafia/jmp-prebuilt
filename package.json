@@ -1,38 +1,38 @@
 {
-    "name": "jmp-prebuilt",
-    "version": "0.0.1",
-    "description": "Node.js module for creating, parsing and replying to messages of the Jupyter Messaging Protocol (JMP)",
-    "keywords": [
-        "jupyter",
-        "messaging",
-        "protocol",
-        "ijavascript"
-    ],
-    "bugs": {
-        "url": "https://github.com/captainsafia/zmq-prebuilt/issues"
-    },
-    "license": "BSD-3-Clause",
-    "author": {
-        "author": "Nicolas Riesco",
-        "email": "enquiries@nicolasriesco.net",
-        "url": "http://www.nicolasriesco.net/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/n-riesco/jmp.git"
-    },
-    "dependencies": {
-        "node-uuid": "^1.4.2",
-        "zmq-prebuilt": "^1.0.0"
-    },
-    "devDependencies": {
-        "jsdoc": "latest",
-        "jshint": "latest"
-    },
-    "scripts": {
-        "doc": "jsdoc -R README.md -d doc index.js",
-        "doc:publish": "node scripts/doc-publish.js doc https://github.com/captainsafia/jmp",
-        "lint": "jshint index.js test/",
-        "test": "node test/index.js"
-    }
+  "name": "jmp-prebuilt",
+  "version": "0.1.0",
+  "description": "Node.js module for creating, parsing and replying to messages of the Jupyter Messaging Protocol (JMP)",
+  "keywords": [
+    "jupyter",
+    "messaging",
+    "protocol",
+    "ijavascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/captainsafia/zmq-prebuilt/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "author": "Nicolas Riesco",
+    "email": "enquiries@nicolasriesco.net",
+    "url": "http://www.nicolasriesco.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n-riesco/jmp.git"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.2",
+    "zmq-prebuilt": "^1.0.0"
+  },
+  "devDependencies": {
+    "jsdoc": "latest",
+    "jshint": "latest"
+  },
+  "scripts": {
+    "doc": "jsdoc -R README.md -d doc index.js",
+    "doc:publish": "node scripts/doc-publish.js doc https://github.com/captainsafia/jmp",
+    "lint": "jshint index.js test/",
+    "test": "node test/index.js"
+  }
 }
